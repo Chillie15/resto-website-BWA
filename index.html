@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="Bootstrap 5/css/bootstrap.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <link rel="icon" href="Resource/Icon/Logo.ico" />
+    <title>Resto Website</title>
+  </head>
+  <body>
+    <section id="ads">
+      <!-- Navigation Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <!-- Navbar Brand on the left in medium screen or lower -->
+
+          <a class="navbar-brand d-lg-none" href="#"><img class="nav-icon align-text-top" src="Resource/Icon/Logo.svg" alt="" />Resto</a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Category
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Food</a></li>
+                  <li><a class="dropdown-item" href="#">Drink</a></li>
+                  <li><a class="dropdown-item" href="#">Other</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+            </ul>
+
+            <!-- Navbar Brand on the center in large screen or greater -->
+            <a class="navbar-brand d-none d-lg-block" href="#"><img class="nav-icon align-text-top" src="Resource/Icon/Logo.svg" alt="" />Resto</a>
+
+            <form class="d-flex">
+              <div class="input-group">
+                <span class="input-group-text search-icon"><img src="Resource/Icon/search.svg" alt="" /></span>
+                <input
+                  type="search"
+                  class="form-control me-2 search-bar"
+                  placeholder="Search your favorite Food"
+                  aria-label="Search"
+                  aria-describedby="basic-addon1"
+                />
+              </div>
+              <button class="btn search-button" type="submit">Login</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Ads Section -->
+
+      <div class="container">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Resource/images/ads-1.png" alt="" class="image-ads" />
+            </div>
+            <div class="carousel-item">
+              <img src="Resource/images/ads-2.png" alt="" class="image-ads" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Ads Card -->
+
+        <div class="card ads-card">
+          <div class="card-body">
+            <p class="user-rating">⭐⭐⭐⭐⭐ <span class="rating">5.0</span> (5.2K+)</p>
+            <h2 class="card-heading-ads">Padang Restaurant</h2>
+            <h4 class="card-price">IDR 49.999 - IDR 560.000</h4>
+            <p class="card-location">
+              <span><img src="Resource/Icon/Location.svg" alt="" /></span> Padang, Indonesia
+            </p>
+            <button class="btn card-button">
+              Make Reservation <span><img src="Resource\Icon\next.svg" alt="" /></span>
+            </button>
+            <p class="card-info">
+              <span><img src="Resource\Icon\Info-Square.svg" alt="info-square" /> No Extra Cost</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefit Section -->
+
+    <section id="benefit">
+      <div class="container">
+        <div class="benefit-section-title">
+          <h4 class="subhead-title">SPECIAL BENEFIT FOR YOU</h4>
+          <h1 class="heading-title benefit-title">Why Should Choose Us?</h1>
+        </div>
+
+        <!-- Benefit Cards -->
+
+        <div class="row row-cols-1 g-4">
+          <div class="col col-lg-3 col-md-6">
+            <div class="card card-benefit">
+              <div class="card-body card-body-benefit pb-0 px-0 pt-4">
+                <img src="Resource/Icon/Discount.svg" alt="discount" />
+                <h3 class="card-heading-benefit">Extra Discount</h3>
+                <p class="card-benefit-description">Get your special discount by using our reservation</p>
+                <button class="btn btn-details">
+                  View Details <span><img src="Resource/Icon/next.svg" alt="" /></span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col col-lg-3 col-md-6">
+            <div class="card card-benefit">
+              <div class="card-body card-body-benefit pb-0 px-0 pt-4">
+                <img src="Resource/Icon/spoon-knife.svg" alt="discount" />
+                <h3 class="card-heading-benefit">Come and Eat</h3>
+                <p class="card-benefit-description">Get your own table quickly & without waiting in line</p>
+                <button class="btn btn-details">
+                  View Details <span><img src="Resource/Icon/next.svg" alt="" /></span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col col-lg-3 col-md-6">
+            <div class="card card-benefit">
+              <div class="card-body card-body-benefit pb-0 px-0 pt-4">
+                <img src="Resource/Icon/fee.svg" alt="discount" />
+                <h3 class="card-heading-benefit">No Extra Fee</h3>
+                <p class="card-benefit-description">Get tax free if you want to order food and make a reservation</p>
+                <button class="btn btn-details">
+                  View Details <span><img src="Resource/Icon/next.svg" alt="" /></span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="pricing-column col col-lg-3 col-md-6">
+            <div class="card card-benefit">
+              <div class="card-body card-body-benefit pb-0 px-0 pt-4">
+                <img src="Resource/Icon/Clean.svg" alt="discount" />
+                <h3 class="card-heading-benefit">Guaranteed Cleanliness</h3>
+                <p class="card-benefit-description">We ensure the cleanliness of the place as well as the food</p>
+                <button class="btn btn-details">
+                  View Details <span><img src="Resource/Icon/next.svg" alt="" /></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Most Popular Restaurant -->
+
+    <section id="popular-restaurant">
+      <div class="container">
+        <div class="row">
+          <!-- Left Column -->
+
+          <div class="left-col col-lg-4 col-md-12">
+            <h4 class="subhead-title">TOP 3 FEATURED RESTAURANT</h4>
+            <h1 class="heading-title restaurant-title">Most Popular Restaurants</h1>
+            <p class="restaurant-description">
+              The best restaurant in our opinion is how much customers like it in terms of place, price, comfort and of course the taste of the food
+              itself.
+            </p>
+            <button class="btn view-restaurant-btn">
+              View All Restaurant <span><img src="Resource/Icon/next.svg" alt="" /></span>
+            </button>
+          </div>
+
+          <!-- Right Column -->
+
+          <div class="right-col col-lg-8 col-md-12">
+            <img src="Resource/images/resto-card.png" class="img-card" alt="restaurant-img" />
+            <div class="card-body-restaurant">
+              <p class="rating-restaurant">⭐ <span class="rating">5.0</span> (7.6K+)</p>
+              <h4 class="restaurant-name">Bind Balorant</h4>
+              <button class="btn-restaurant"><img src="Resource/Icon/arrow-right.svg" alt="" /></button>
+              <p class="restaurant-location">
+                <span><img src="Resource/Icon/Location.svg" alt="" /></span> Jakarta, Indonesia
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Restaurant Near You Section -->
+
+    <section id="resto-city">
+      <div class="container">
+        <div class="resto-city-title">
+          <h4 class="subhead-title restaurant-near-subhead">RESTAURANT BASED BY CITY</h4>
+          <h1 class="heading-title restaurant-near-title">Restaurant Near You</h1>
+
+          <div class="input-group select-location">
+            <span class="input-group-text location-icon" id="basic-addon1"><img src="Resource/Icon/Location.svg" alt="" /></span>
+            <select class="form-select form-select-md" aria-label=".form-select-md example">
+              <option selected>Jakarta, Indonesia</option>
+              <option value="1">Bandung, Indonesia</option>
+              <option value="2">Sunda, Indonesia</option>
+              <option value="3">Bali, Indonesia</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Restaurant Near You Card -->
+
+        <div class="row row-cols-1 g-4">
+          <div class="restaurant-near-col col col-lg-4 col-md-6">
+            <img src="Resource/images/restaurant-near-you-1.png" class="restaurant-near-you-img" alt="restaurant-img" />
+            <div class="card-body-restaurant-near">
+              <p class="rating-restaurant">⭐ <span class="rating">5.0</span> (6.6K+)</p>
+              <h4 class="restaurant-name">Batavia Restaurant</h4>
+              <button class="btn-restaurant"><img src="Resource/Icon/arrow-right.svg" alt="" /></button>
+              <p class="card-price restaurant-price">IDR 29.000 - IDR 259.999</p>
+            </div>
+          </div>
+
+          <div class="restaurant-near-col col col-lg-4 col-md-6">
+            <img src="Resource/images/restaurant-near-you-2.png" class="restaurant-near-you-img" alt="restaurant-img" />
+            <div class="card-body-restaurant-near">
+              <p class="rating-restaurant">⭐ <span class="rating">5.0</span> (3.6K+)</p>
+              <h4 class="restaurant-name">Split Ascent Restaurant</h4>
+              <button class="btn-restaurant"><img src="Resource/Icon/arrow-right.svg" alt="" /></button>
+              <p class="card-price restaurant-price">IDR 49.999 - IDR 560.000</p>
+            </div>
+          </div>
+
+          <div class="restaurant-near-col col col-lg-4 col-md-6">
+            <img src="Resource/images/restaurant-near-you-3.png" class="restaurant-near-you-img" alt="restaurant-img" />
+            <div class="card-body-restaurant-near">
+              <p class="rating-restaurant">⭐ <span class="rating">5.0</span> (11K+)</p>
+              <h4 class="restaurant-name">Daza Fracture Restaurant</h4>
+              <button class="btn-restaurant"><img src="Resource/Icon/arrow-right.svg" alt="" /></button>
+              <p class="card-price restaurant-price">IDR 29.999 - IDR 560.000</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Restaurant Near Button -->
+
+        <div class="btn-restaurant-near">
+          <button class="btn view-restaurant-btn">
+            View All Restaurant <span><img src="Resource/Icon/next.svg" alt="" /></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Expert Chef Section -->
+
+    <section id="expert-chef">
+      <div class="container">
+        <div class="row">
+          <!-- Left Column -->
+
+          <div class="col col-lg-6 chef-left-col">
+            <div class="card card-experience">
+              <div class="card-body card-body-experience">
+                <img src="Resource/Icon/experience-proved.svg" alt="" />
+                <h4 class="card-chef-title">12 Years</h4>
+                <p class="card-chef-description">Experience</p>
+              </div>
+            </div>
+            <img class="chef-img" src="Resource/images/restaurant-chef.png" alt="our-chef" />
+          </div>
+
+          <!-- Right Column -->
+
+          <div class="col col-lg-6 chef-right-col">
+            <div class="top-chef-title">
+              <h4 class="subhead-title">RESTAURANT BASED BY CITY</h4>
+              <h1 class="heading-title">Restaurant Near You</h1>
+            </div>
+
+            <div class="row g-4">
+              <div class="col col-lg-12">
+                <div class="card top-chef-card-active">
+                  <div class="card-body">
+                    <h5 class="food-category">PIZZA</h5>
+                    <h2 class="chef-name">Phoenix Satcheup</h2>
+                    <button class="btn-profile">
+                      Profile Details <span><img src="Resource/Icon/next-yellow.svg" alt="" /></span>
+                    </button>
+                    <p class="chef-location">
+                      <span><img src="Resource/Icon/Location.svg" alt="" /></span> Jakarta, Indonesia
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col col-lg-12">
+                <div class="card top-chef-card">
+                  <div class="card-body">
+                    <h5 class="food-category">VEGAN</h5>
+                    <h2 class="chef-name">Chamber Botfrag</h2>
+                    <button class="btn-profile-disable">
+                      Profile Details <span><img src="Resource/Icon/next-yellow.svg" alt="" /></span>
+                    </button>
+                    <p class="chef-location">
+                      <span><img src="Resource/Icon/Location.svg" alt="" /></span> Bandung, Indonesia
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col col-lg-12">
+                <div class="card top-chef-card">
+                  <div class="card-body">
+                    <h5 class="food-category">ROAST CHICKEN</h5>
+                    <h2 class="chef-name">Asep Vandal</h2>
+                    <button class="btn-profile-disable">
+                      Profile Details <span><img src="Resource/Icon/next-yellow.svg" alt="" /></span>
+                    </button>
+                    <p class="chef-location">
+                      <span><img src="Resource/Icon/Location.svg" alt="" /></span> Sunda, Indonesia
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col col-lg-12 top-chef-card">
+                <div class="card top-chef-card">
+                  <div class="card-body">
+                    <h5 class="food-category">BEEF STEAK</h5>
+                    <h2 class="chef-name">I Made Invoker</h2>
+                    <button class="btn-profile-disable">
+                      Profile Details <span><img src="Resource/Icon/next-yellow.svg" alt="" /></span>
+                    </button>
+                    <p class="chef-location">
+                      <span><img src="Resource/Icon/Location.svg" alt="" /></span> Bali, Indonesia
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="btn-view-chef">
+              View All Chef <span><img src="Resource/Icon/next.svg" alt="" /></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap JS Script -->
+    <script src="Bootstrap 5/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
+
+<!-- Maaf codenya belum rapi, baru belajar  :) -->

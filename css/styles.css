@@ -1,0 +1,436 @@
+body {
+  background-color: #fafafa;
+}
+
+#ads,
+#benefit,
+#popular-restaurant,
+#resto-city,
+#expert-chef {
+  padding-bottom: 7.5rem;
+}
+
+/* Font Used*/
+
+@font-face {
+  font-family: Nunito-ExtraBold;
+  src: url("../Resource/Fonts/Nunito/static/Nunito-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url("../Resource/Fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url("../Resource/Fonts/Poppins/Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url("../Resource/Fonts/Poppins/Poppins-SemiBold.ttf");
+}
+
+/* Heading and Subhead */
+
+.heading-title {
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 1.75rem;
+  color: #232631;
+}
+
+.subhead-title {
+  font-family: "Poppins-SemiBold", sans-serif;
+  color: #5a4fcf;
+  font-size: 1rem;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  margin: 3.75rem 0;
+}
+
+.nav-item {
+  padding: 0 0.625rem;
+}
+
+.nav-link,
+.search-bar,
+.search-button,
+.dropdown-item {
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 1rem;
+}
+
+.navbar-brand {
+  font-family: "Nunito-ExtraBold", sans-serif;
+  font-size: 1.5rem;
+}
+
+.nav-icon {
+  width: 1.875rem;
+  height: 1.875rem;
+  margin-right: 0.5rem;
+}
+
+.search-button {
+  background-color: #ebeaf7;
+  color: #5a4fcf;
+  border-radius: 12px;
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.search-button:hover {
+  background-color: #5a4fcf;
+  color: #ffffff;
+}
+
+.search-bar,
+.search-icon {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 12px;
+}
+
+/* Ads Section */
+
+.carousel {
+  text-align: center;
+}
+
+/* Ads Card */
+
+.ads-card {
+  width: 24.375rem;
+  border: none;
+  border-radius: 24px;
+  position: absolute;
+  top: 17.625rem;
+}
+
+.user-rating {
+  font-family: "Poppins-Regular", sans-serif;
+  color: #656565;
+  margin-top: 1.5rem;
+}
+.rating {
+  font-family: "Poppins-SemiBold", sans-serif;
+  color: #ffb800;
+}
+
+.card-heading-ads {
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 1.375rem;
+  color: #232631;
+}
+
+.card-price {
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 1.125rem;
+  color: #656565;
+}
+
+.card-location {
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 1rem;
+  color: #656565;
+  margin-bottom: 2.125rem;
+}
+
+.card-button {
+  padding: 1rem 1.75rem;
+  background-color: #fdc886;
+  border-radius: 12px;
+  border: none;
+  font-family: "Poppins-SemiBold", sans-serif;
+  color: #232631;
+  margin-bottom: 0.75rem;
+}
+
+.card-button:hover {
+  background-color: #ffb55a;
+}
+
+.card-info {
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 1rem;
+  color: #656565;
+}
+
+/* Benefit Section */
+
+.benefit-title {
+  margin-bottom: 2.5rem;
+}
+
+.card-benefit {
+  border: none;
+  border-radius: 24px;
+}
+
+.card-body-benefit,
+.benefit-section-title {
+  text-align: center;
+}
+
+.card-heading-benefit {
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 1.125rem;
+  color: #232631;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.card-benefit-description {
+  font-family: "Poppins-Regular", sans-serif;
+  color: #656565;
+  padding: 0 1.5rem;
+  margin-bottom: 3.375rem;
+}
+
+.btn-details {
+  width: 100%;
+  border: none;
+  border-radius: 12px 12px 24px 24px;
+  padding: 1.5rem 0;
+  font-family: "Poppins-SemiBold", sans-serif;
+}
+
+.btn-details:hover {
+  background-color: #fdc886;
+}
+
+/* Popular Restaurant Section (left Side)*/
+
+.left-col {
+  padding-top: 5.438rem;
+}
+
+.restaurant-title {
+  margin-bottom: 1.25rem;
+}
+
+.restaurant-description {
+  font-family: "Poppins-Regular", sans-serif;
+  color: #656565;
+  margin-bottom: 3.5rem;
+}
+
+.view-restaurant-btn {
+  background-color: #fdc886;
+  font-family: "Poppins-SemiBold", sans-serif;
+  color: #232631;
+  padding: 1rem 1.75rem;
+  border: none;
+  border-radius: 12px;
+}
+
+.view-restaurant-btn:hover {
+  background-color: #ffb55a;
+}
+
+/* Popular Restaurant Card (Right Side) */
+
+.right-col {
+  height: 29.688rem;
+}
+
+.img-card {
+  width: 54.25rem;
+}
+
+.card-body-restaurant {
+  padding: 1.5rem;
+  border-radius: 24px;
+  background-color: white;
+  width: 22rem;
+  position: relative;
+  bottom: 9.688rem;
+  left: 1.5rem;
+}
+
+.rating-restaurant,
+.restaurant-location {
+  font-family: "Poppins-Regular", sans-serif;
+  color: #656565;
+  margin-bottom: 0.25rem;
+}
+
+.restaurant-name {
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 1.125rem;
+  display: inline-block;
+}
+
+.btn-restaurant {
+  background-color: #fdc886;
+  border: none;
+  border-radius: 12px;
+  padding: 0.375rem;
+  float: right;
+  position: relative;
+}
+
+.btn-restaurant:hover {
+  background-color: #ffb55a;
+}
+
+/* Restaurant Near You Section */
+
+.restaurant-near-title {
+  margin-bottom: 2.125rem;
+  display: inline-block;
+}
+
+.select-location {
+  float: right;
+  width: 252px;
+}
+
+.form-select {
+  font-family: "Poppins-Regular", sans-serif;
+  color: #656565;
+  border: none;
+}
+
+.location-icon {
+  border: none;
+  background-color: white;
+}
+
+.restaurant-near-col {
+  height: 25.938rem;
+}
+
+.restaurant-near-you-img {
+  width: 26.688rem;
+}
+
+.card-body-restaurant-near {
+  padding: 1.5rem;
+  border-radius: 24px;
+  background-color: white;
+  width: 22rem;
+  position: relative;
+  bottom: 9.688rem;
+  left: 2.25rem;
+}
+
+.restaurant-price {
+  margin-bottom: 0;
+}
+
+.btn-restaurant-near {
+  margin-top: 3.5rem;
+  text-align: center;
+}
+
+/* Expert Chef Section */
+
+.chef-img {
+  width: 38.75rem;
+}
+
+.chef-right-col {
+  padding-left: 80px;
+}
+
+/* Card Chef Experience (Left Side)*/
+.card-experience {
+  text-align: center;
+  border: none;
+  border-radius: 24px;
+  width: 11.188rem;
+  position: absolute;
+  top: 175rem;
+  left: 38.75rem;
+}
+
+.card-chef-title {
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 1.125em;
+  margin-top: 0.75rem;
+}
+
+.card-chef-description {
+  font-family: "Poppins-Regular", sans-serif;
+  color: #656565;
+}
+
+/* Top 4 Chef (Right Side)*/
+
+.top-chef-title {
+  margin-bottom: 2rem;
+}
+
+/* Top Chef Card */
+.top-chef-card-active {
+  border: none;
+  border-radius: 20px;
+}
+
+.top-chef-card {
+  border: none;
+  border-radius: 20px;
+  background-color: #fafafa;
+}
+
+.top-chef-card:hover {
+  border: none;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.food-category {
+  font-family: "Poppins-Medium ", sans-serif;
+  color: #656565;
+  font-size: 1rem;
+}
+
+.chef-name {
+  font-family: "Poppins-SemiBold", sans-serif;
+  display: inline-block;
+  font-size: 1.375rem;
+  color: #232631;
+}
+
+.chef-location {
+  font-family: "Poppins-Regular", sans-serif;
+  color: #656565;
+  margin-bottom: 0;
+}
+
+.btn-profile {
+  padding: 10px 20px;
+  float: right;
+  background-color: white;
+  color: #fdc886;
+  border: none;
+  border-radius: 12px;
+  font-family: "Poppins-SemiBold", sans-serif;
+}
+
+.btn-profile-disable {
+  display: none;
+}
+
+/* Button View All Chef */
+
+.btn-view-chef {
+  padding: 1rem 1.75rem;
+  background-color: #fdc886;
+  font-family: "Poppins-SemiBold", sans-serif;
+  color: #232631;
+  border: none;
+  border-radius: 12px;
+  margin-top: 104px;
+}
+
+.btn-view-chef:hover {
+  background-color: #ffb55a;
+}
+
+/* Maaf codenya belum rapi, baru belajar  :) */
